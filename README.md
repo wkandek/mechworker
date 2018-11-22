@@ -14,6 +14,7 @@ Suyntax: makemails.py 30 40 example.com
 creates a mails.csv suitable for the consumption of the mechworker.py program
 
 example:
+
 	U30,Userslastname,U30@example.com
 	U31,Userslastname,U31@example.com
 	U32,Userslastname,U32@example.com
