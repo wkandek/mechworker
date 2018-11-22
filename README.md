@@ -1,4 +1,4 @@
-mechworker.py 200 mails.csv http://exmaple.com/mw.html
+mechworker.py 200 mails.csv http://example.com/mw.html
 
 runs concurrent 200 threads post to the landing page specified in program for all the entries in mails.csv
 
@@ -25,20 +25,20 @@ U39,Userslastname,U39@example.com
 
 Sample: mw.html file
 
-<HTML>
-<BODY>
-<FORM ACTION=/cgi-bin/ignore.cgi>
-<h3>Contact Form</h3>
-First Name:<INPUT NAME=FirstName TYPE="text">
-<br>
-Last Name:<INPUT NAME=LastName TYPE="text">
-<br>
-E-mail:<INPUT NAME=Email TYPE="text">
-<br>
-<br>
-<INPUT TYPE="submit" VALUE"=Submit">
-<br>
-<br>
-</FORM>
-</BODY>
-</HTML>
+	<HTML>
+	<BODY>
+	<FORM ACTION=/cgi-bin/ignore.cgi>
+	<h3>Contact Form</h3>
+	First Name:<INPUT NAME=FirstName TYPE="text">
+	<br>
+	Last Name:<INPUT NAME=LastName TYPE="text">
+	<br>
+	E-mail:<INPUT NAME=Email TYPE="text">
+	<br>
+	<br>
+	<INPUT TYPE="submit" VALUE"=Submit">
+	<br>
+	<br>
+	</FORM>
+	</BODY>
+	</HTML>
